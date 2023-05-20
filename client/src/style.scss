@@ -69,9 +69,21 @@ $lightGreen: #b9e7e7;
         display: flex;
         align-items: center;
         justify-content: space-between;
+
         .logo {
-          img {
-            width: 120px;
+          background-color: $lightGreen;
+          width: 70px;
+          height: 70px;
+          border-radius: 50%;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          font-weight: 300;
+          border: 1px solid white;
+
+          .logo-text {
+            position: relative;
+            margin-left: 17px;
           }
         }
         .links {
@@ -106,6 +118,20 @@ $lightGreen: #b9e7e7;
             }
           }
         }
+      }
+    }
+
+    //FOOTER
+    footer {
+      margin-top: 100px;
+      padding: 20px;
+      background-color: $lightGreen;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 12px;
+      img {
+        height: 50px;
       }
     }
   }
